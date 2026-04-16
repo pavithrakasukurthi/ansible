@@ -1,0 +1,10 @@
+- name: variables from files
+  hosts: my_ip
+  connection: local
+  vars_files:
+   - course.yaml
+  tasks:
+  - name: from files print variables
+    ansible.builtin.debug:
+     msg: Variables are {{ COLOUR }}, {{ NUMBER }}
+    
