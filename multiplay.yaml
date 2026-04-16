@@ -11,7 +11,7 @@
       msg: This is Play-1-Task-2
     
 - name: Play-2
-  hosts: my-ip
+  hosts: my_ip
   connection: local
   tasks:
   - name: Play-2-Task-1

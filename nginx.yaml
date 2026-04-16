@@ -1,5 +1,5 @@
 - name: "install and start nginx"
-  hosts: my-ip
+  hosts: my_ip
   connection: local
   become: yes
   tasks:
