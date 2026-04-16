@@ -1,0 +1,14 @@
+- name: Task level variables
+  hosts: my_ip
+  connection: local
+  vars:
+   NAME: Pavi
+   AGE: 25
+
+  tasks:
+  - name: Print task level variables
+    vars:
+     NAME: Band
+     AGE: 24
+    ansible.builtin.debug:
+     msg: My name is {{ NAME }} and I'm {{ AGE }} years old.
