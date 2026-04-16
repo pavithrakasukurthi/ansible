@@ -3,7 +3,7 @@
   connection: local
   vars:
    NAME: Pavi
-   Age: 25
+   AGE: 25
    GENDER: Female
 
   tasks:
