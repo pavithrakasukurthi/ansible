@@ -9,4 +9,4 @@
   tasks:
    - name: Printing play level variables
      ansible.builtin.debug:
-      msg: My name is {{ NAME }}, age is {{ AGE }} and gender is {{ GENDER }}
+      msg: My name is {{ NAME }}, age is {{ AGE }} and I'm a {{ GENDER }}.
