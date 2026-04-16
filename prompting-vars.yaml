@@ -1,7 +1,7 @@
 - name: Prompt input from user
   hosts: my_ip
   connection: local
-  vars_promts:
+  vars_promt:
   - name: username
     prompt: Enter username
     private: no
