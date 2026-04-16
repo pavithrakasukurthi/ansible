@@ -1,23 +1,23 @@
-- name: "Play-1"
+- name: Play-1
   hosts: my-ip
   connection: local
   tasks:
-   - name: "Play-1-Task-1"
+   - name: Play-1-Task-1
      ansible.builtin.debug:
-      msg: "This is Paly-1-task-1"
+      msg: This is Paly-1-task-1
 
-   - name: "Play-1-Task-2"
+   - name: Play-1-Task-2
      ansible.builtin.debug:
-      msg: "This is Play-1-Task-2"
+      msg: This is Play-1-Task-2
     
-- name: "Play-2"
+- name: Play-2
   hosts: my-ip
   connection: local
   tasks:
-  - name: "Play-2-Task-1"
+  - name: Play-2-Task-1
     ansible.builtin.debug:
-     msg: "This is Play-2-Task-1"
+     msg: This is Play-2-Task-1
 
-  - name: "Play-2-Task-2"
+  - name: Play-2-Task-2
     ansible.builtin.debug:
-     msg: "This is Play-2-Task-2"
+     msg: This is Play-2-Task-2
