@@ -8,8 +8,6 @@
   - name: password
     prompt: Enter password 
     private: yes
- 
-  N
 
   tasks:
   - name: Print username and password
