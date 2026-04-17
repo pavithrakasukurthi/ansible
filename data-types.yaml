@@ -12,7 +12,7 @@
    concepts:
    cloud: aws
    cm: ansible
-   tasks:
-   - name: prints different variable types
-     ansible.builtin.debug:
-      msg: Course is {{ COURSE }} which is of {{ DURATION }} hours and is ongoing? - {{ is_true }}. We learn different tools like {{ tools }} and concepts like {{ concepts }}
+  tasks:
+  - name: prints different variable types
+    ansible.builtin.debug:
+     msg: Course is {{ COURSE }} which is of {{ DURATION }} hours and is ongoing? - {{ is_true }}. We learn different tools like {{ tools }} and concepts like {{ concepts }}
