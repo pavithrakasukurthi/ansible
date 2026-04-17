@@ -4,4 +4,4 @@
   tasks:
   - name: printing command line variables
     ansible.builtin.debug:
-    msg: My name is {{ NAME }} and I'm {{ AGE }} years old.
+     msg: My name is {{ NAME }} and I'm {{ AGE }} years old.
