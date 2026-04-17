@@ -10,8 +10,8 @@
    - nginx
    - ansible
    concepts:
-   cloud: aws
-   cm: ansible
+    cloud: aws
+    cm: ansible
   tasks:
   - name: prints different variable types
     ansible.builtin.debug:
