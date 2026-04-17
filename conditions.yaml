@@ -2,11 +2,11 @@
   hosts: local
   connection: local
   vars_prompt:
-   name: NUM
-   prompt: Enter the number-
-   private: no
+  - name: NUM
+    prompt: Enter the number-
+    private: no
   tasks:
   - name: printing number if it's less or greater than ten
     ansible.builtin.debug:
      msg: The number {{ NUM }} is less than 10
-    when: NUM < 10
+    when: NUM | int < 10
