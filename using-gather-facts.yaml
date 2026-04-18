@@ -1,6 +1,7 @@
 - name: installing packages depending upon facts
   hosts: local
   connection: local
+  become: yes
   tasks:
   - name: install nginx if Redhat
     ansible.builtin.dnf:
